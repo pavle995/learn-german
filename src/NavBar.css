@@ -1,0 +1,13 @@
+.flexcolumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    float: left;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border: lightgray;
+    border-style: hidden;
+}
