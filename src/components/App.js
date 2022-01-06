@@ -1,8 +1,8 @@
 import NavBar from './NavBar'
 import Header from './Header'
-import Body from './Body'
-import Lekcija from './Lekcija'
+import Home from './Home'
 import { Routes, Route } from "react-router-dom";
+import Glagoli from './Glagoli';
 
 function App() {
   return (
@@ -10,8 +10,8 @@ function App() {
       <Header />
       <NavBar />
       <Routes>
-        <Route path="/" element={<Body />} />
-        <Route path="lekcija" element={<Lekcija />} />
+        <Route path="/" element={<Home />} />
+        <Route path="glagoli" element={<Glagoli />} />
       </Routes>
     </div>
   );

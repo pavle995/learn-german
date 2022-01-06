@@ -2,7 +2,7 @@ import '../styles/Header.css'
 
 function Header() {
   return (
-    <h1 className='header'>Učite nemački</h1>
+    <h1 className='header'><a href="/">Učite nemački</a></h1>
   );
 }
 
